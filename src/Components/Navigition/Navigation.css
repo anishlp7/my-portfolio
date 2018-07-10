@@ -1,0 +1,23 @@
+
+.navbar {
+  background-color: transparent;
+}
+.top-nav-collapse {
+  background-color: #4285F4;
+}
+@media only screen and (max-width: 768px) {
+  .navbar {
+      background-color: #4285F4;
+  }
+}
+
+h2.fontsize1{
+    font-size: 100px;
+}
+
+h5.fontsize2{
+    font-size: 40px;
+}
+p.fontsize3{
+    font-size: 30px;
+}
