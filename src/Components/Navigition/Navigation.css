@@ -13,11 +13,33 @@
 
 h2.fontsize1{
     font-size: 100px;
+   font-family: 'Dancing Script', cursive;
+    text-align: center;
+    
 }
 
 h5.fontsize2{
     font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
 }
-p.fontsize3{
-    font-size: 30px;
+h1.fontsize3{
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    background-color: white;
+    text-align: center;
+    color:black;
+}
+
+.contactme{
+    background-color: #4285F4;
+}
+
+.contactme1{
+margin: 2rem;
+    
+    
+}
+.padimage{
+    padding-top: 5rem;
 }
