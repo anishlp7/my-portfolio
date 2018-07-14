@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, NavbarBrand, NavbarNav, NavbarToggler, Collapse, NavItem, NavLink, Container, Mask,Row, Col, Card, CardBody, Fa, Button, Input , View,Progress } from 'mdbreact';
+import { Navbar, NavbarBrand, NavbarNav, NavbarToggler, Collapse, NavItem, NavLink, Container, Mask,Row, Col, Card, CardBody, Fa, Button, Input , View,Progress , Footer} from 'mdbreact';
 import { BrowserRouter as Router } from 'react-router-dom';
 import './Navigation.css';
 import anish from './anish.jpg';
@@ -44,19 +44,31 @@ class Navigation extends React.Component {
                                     <NavItem>
                                         <NavLink to="#">Projects</NavLink>
                                     </NavItem>
-                                     <NavItem>
+                                    <NavItem>
                                         <NavLink to="#">About me</NavLink>
                                     </NavItem>
                                 </NavbarNav>
                                 <NavbarNav right>
                                     <navItem>
-                                        <NavLink to="#"><Fa icon="facebook"/></NavLink>
+                                        <NavLink to="#">  <li className="list-inline-item">
+                                            <a className="p-2 fa-lg w-ic" href='https://www.facebook.com/anish.lawrence.31'>
+                                                <Fa icon="facebook"/>
+                                            </a>
+                                            </li></NavLink>
                                     </navItem>
                                     <navItem>
-                                        <NavLink to="#"><Fa icon="linkedin"/></NavLink>
+                                        <NavLink to="#"><li className="list-inline-item">
+                                            <a className="p-2 fa-lg w-ic" href='https://www.linkedin.com/in/anish-lawrence-434ba4139/'>
+                                                <Fa icon="linkedin"/>
+                                            </a>
+                                            </li></NavLink>
                                     </navItem>
                                     <navItem>
-                                        <NavLink to="#"><Fa icon="github"/></NavLink>
+                                        <NavLink to="#"><li className="list-inline-item">
+                                            <a className="p-2 fa-lg w-ic" href='https://github.com/anishlp7'>
+                                                <Fa icon="github"/>
+                                            </a>
+                                            </li></NavLink>
                                     </navItem>
                                 </NavbarNav>
                             </Collapse>
@@ -77,27 +89,27 @@ class Navigation extends React.Component {
                 <div className="contactme1">
                     <Row>
                         <Col lg="6">
-                          <h6 className="font-weight-bold mb-3 p-0"><strong>HTML &amp; CSS</strong></h6>
-                          <Progress value={50} color="success" animated></Progress><br/>
+                            <h6 className="font-weight-bold mb-3 p-0"><strong>HTML &amp; CSS</strong></h6>
+                            <Progress value={50} color="success" animated></Progress><br/>
                             <h6 className="font-weight-bold mb-3 p-0"><strong>React JS</strong></h6>
-                          <Progress value={50} color="info" animated></Progress><br/>
-                              <h6 className="font-weight-bold mb-3 p-0"><strong>Node JS</strong></h6>
-                          <Progress value={50} color="warning" animated></Progress><br/>
-                              <h6 className="font-weight-bold mb-3 p-0"><strong>PHP &amp; MySQL</strong></h6>
-                          <Progress value={50} color="danger" animated></Progress><br/>
-                            
-                            
+                            <Progress value={50} color="info" animated></Progress><br/>
+                            <h6 className="font-weight-bold mb-3 p-0"><strong>Node JS</strong></h6>
+                            <Progress value={50} color="warning" animated></Progress><br/>
+                            <h6 className="font-weight-bold mb-3 p-0"><strong>PHP &amp; MySQL</strong></h6>
+                            <Progress value={50} color="danger" animated></Progress><br/>
+
+
 
                         </Col>
                         <Col lg="6 ">
-                               <h6 className="font-weight-bold mb-3 p-0"><strong>Javascript</strong></h6>
-                          <Progress value={50} color="danger" animated></Progress><br/>
+                            <h6 className="font-weight-bold mb-3 p-0"><strong>Javascript</strong></h6>
+                            <Progress value={50} color="danger" animated></Progress><br/>
                             <h6 className="font-weight-bold mb-3 p-0"><strong>BootStrap</strong></h6>
-                          <Progress value={50} color="warning" animated></Progress><br/>
-                              <h6 className="font-weight-bold mb-3 p-0"><strong>PostgreSQL</strong></h6>
-                          <Progress value={50} color="info" animated></Progress><br/>
-                               <h6 className="font-weight-bold mb-3 p-0"><strong>Ethical Hacking</strong></h6>
-                          <Progress value={50} color="success" animated></Progress>
+                            <Progress value={50} color="warning" animated></Progress><br/>
+                            <h6 className="font-weight-bold mb-3 p-0"><strong>PostgreSQL</strong></h6>
+                            <Progress value={50} color="info" animated></Progress><br/>
+                            <h6 className="font-weight-bold mb-3 p-0"><strong>Ethical Hacking</strong></h6>
+                            <Progress value={50} color="success" animated></Progress>
                         </Col>
                     </Row>
                 </div>
@@ -114,6 +126,7 @@ class Navigation extends React.Component {
                             <a className="green-text"><h6 className="font-weight-bold mb-3"><Fa icon="fa fa-archive" className="pr-2"></Fa>1</h6></a>
                             <h3 className="font-weight-bold mb-3 p-0"><strong>Smart Brain- Face Recognition</strong></h3>
                             <p>The following project is originally designed by Andrei Neagoie.Later, I just recreated by seeing his tutorials which he was uploaded on Udemy.</p>
+                            <p>The project is used to detect the faces of the persons when we give an url of an image.And based on how many entries he has given by that we give rank for that person.</p>
                             <p>The whole project is bulit by React</p>
                             <p><a><strong>Duration:</strong></a> 3 Months</p>
                         </Col>
@@ -163,7 +176,7 @@ class Navigation extends React.Component {
                     <Row>
                         <Col lg="7">
                             <p className="textpadding">"I am beginner in learning web-development and ethical Hacking.And still seeking knowledge by watching and practising the tutorials.I am not an experienced candidate.I am just starting my career though i have learned more fundamentals skills which were in my skills section and everything which were in my skills sections are self-learned.And i like to finalize one thing.There is no shortages of developers. However, there is a shortage of good, talented, egoless, developers with ambition to learn along with development of the company."</p>
-                            
+
                         </Col>
                         <Col lg="5">
                             <View className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
@@ -218,8 +231,8 @@ class Navigation extends React.Component {
                                         </Row>
                                     </CardBody>
                                 </Col>
-                                <Col lg="4">
-                                    <CardBody className="contact text-center h-100 white-text contactme">
+                                <Col lg="4" >
+                                    <CardBody className="contact text-center h-100 white-text contactme" >
                                         <h3 className="my-4 pb-2">Contact information</h3>
                                         <ul className="text-lg-left list-unstyled ml-4">
                                             <li>
@@ -235,17 +248,17 @@ class Navigation extends React.Component {
                                         <hr className="hr-light my-4"/>
                                         <ul className="list-inline text-center list-unstyled">
                                             <li className="list-inline-item">
-                                                <a className="p-2 fa-lg w-ic">
+                                                <a className="p-2 fa-lg w-ic" href='https://www.facebook.com/anish.lawrence.31'>
                                                     <Fa icon="facebook"/>
                                                 </a>
                                             </li>
                                             <li className="list-inline-item">
-                                                <a className="p-2 fa-lg w-ic">
+                                                <a className="p-2 fa-lg w-ic" href='https://www.linkedin.com/in/anish-lawrence-434ba4139/'>
                                                     <Fa icon="linkedin"/>
                                                 </a>
                                             </li>
                                             <li className="list-inline-item">
-                                                <a className="p-2 fa-lg w-ic">
+                                                <a className="p-2 fa-lg w-ic" href='https://github.com/anishlp7'>
                                                     <Fa icon="github"/>
                                                 </a>
                                             </li>
@@ -257,6 +270,15 @@ class Navigation extends React.Component {
                     </section>
                 </Container>
 
+
+
+                <Footer color="black" className="font-small pt-0">
+                    <div className="footer-copyright text-center py-3">
+                        <Container fluid  color='white'>
+                            &copy; {(new Date().getFullYear())} Copyright: <a > anishlp7@gmail.com</a>
+                        </Container>
+                    </div>
+                </Footer>
             </div>
         );
     }
