@@ -3,9 +3,9 @@ import { Navbar, NavbarBrand, NavbarNav, NavbarToggler, Collapse, NavItem, NavLi
 import { BrowserRouter as Router } from 'react-router-dom';
 import './Navigation.css';
 import anish from './anish.jpg';
-import blockchain from './blockchain1.jpg';
 import smartbrain from './smartbrain.png';
-import pas from './pas.png'
+import pas from './pas.png';
+import bgcolor from './bgcolor.png';
 
 class Navigation extends React.Component {
     constructor(props) {
@@ -124,12 +124,13 @@ class Navigation extends React.Component {
                                 </h6>
                             </a>
                             <h3 className="font-weight-bold mb-3 p-0"><strong>Background Color Generator</strong></h3>
-                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
+                            <p>This project is used to give an linear gradient background color which we can later use it on any website as an background color.</p>
+                            <p>The Whole project is bulit by using Javascript</p>
                             <p><a><strong>Duration:</strong></a> 1 Day</p>
                         </Col>
                         <Col lg="5">
                             <View className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
-                                <img className="img-fluid" src="https://mdbootstrap.com/img/Photos/Others/img%20(34).jpg" alt="Sample "/>
+                                <img className="img-fluid" src={bgcolor} alt="Sample "/>
                                 <a><Mask overlay="white-slight"/></a>
                             </View>
                         </Col>
