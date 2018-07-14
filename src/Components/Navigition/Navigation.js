@@ -39,7 +39,7 @@ class Navigation extends React.Component {
                                         <NavLink to="#">Home</NavLink>
                                     </NavItem>
                                     <NavItem>
-                                        <NavLink to="#">Skills</NavLink>
+                                        <NavLink to="#" >Skills</NavLink>
                                     </NavItem>
                                     <NavItem>
                                         <NavLink to="#">Projects</NavLink>
@@ -51,21 +51,21 @@ class Navigation extends React.Component {
                                 <NavbarNav right>
                                     <navItem>
                                         <NavLink to="#">  <li className="list-inline-item">
-                                            <a className="p-2 fa-lg w-ic" href='https://www.facebook.com/anish.lawrence.31'>
+                                            <a className="p-2 fa-lg w-ic bgcolor" href='https://www.facebook.com/anish.lawrence.31'>
                                                 <Fa icon="facebook"/>
                                             </a>
                                             </li></NavLink>
                                     </navItem>
                                     <navItem>
                                         <NavLink to="#"><li className="list-inline-item">
-                                            <a className="p-2 fa-lg w-ic" href='https://www.linkedin.com/in/anish-lawrence-434ba4139/'>
+                                            <a className="p-2 fa-lg w-ic bgcolor" href='https://www.linkedin.com/in/anish-lawrence-434ba4139/'>
                                                 <Fa icon="linkedin"/>
                                             </a>
                                             </li></NavLink>
                                     </navItem>
                                     <navItem>
                                         <NavLink to="#"><li className="list-inline-item">
-                                            <a className="p-2 fa-lg w-ic" href='https://github.com/anishlp7'>
+                                            <a className="p-2 fa-lg w-ic bgcolor" href='https://github.com/anishlp7'>
                                                 <Fa icon="github"/>
                                             </a>
                                             </li></NavLink>
@@ -85,7 +85,7 @@ class Navigation extends React.Component {
                         </Mask>
                     </div>
                 </header>
-                <h1 className="fontsize3">Skills</h1>
+                <h1 className="fontsize3" id="Skills">Skills</h1>
                 <div className="contactme1">
                     <Row>
                         <Col lg="6">
@@ -248,17 +248,17 @@ class Navigation extends React.Component {
                                         <hr className="hr-light my-4"/>
                                         <ul className="list-inline text-center list-unstyled">
                                             <li className="list-inline-item">
-                                                <a className="p-2 fa-lg w-ic" href='https://www.facebook.com/anish.lawrence.31'>
+                                                <a className="p-2 fa-lg w-ic bgcolor" href='https://www.facebook.com/anish.lawrence.31'>
                                                     <Fa icon="facebook"/>
                                                 </a>
                                             </li>
                                             <li className="list-inline-item">
-                                                <a className="p-2 fa-lg w-ic" href='https://www.linkedin.com/in/anish-lawrence-434ba4139/'>
+                                                <a className="p-2 fa-lg w-ic bgcolor" href='https://www.linkedin.com/in/anish-lawrence-434ba4139/'>
                                                     <Fa icon="linkedin"/>
                                                 </a>
                                             </li>
                                             <li className="list-inline-item">
-                                                <a className="p-2 fa-lg w-ic" href='https://github.com/anishlp7'>
+                                                <a className="p-2 fa-lg w-ic bgcolor" href='https://github.com/anishlp7'>
                                                     <Fa icon="github"/>
                                                 </a>
                                             </li>
