@@ -2,7 +2,7 @@
     "name": "portfolio",
     "version": "0.1.0",
     "private": true,
-    "homepage": "http://anishlp7.github.io/my-portfolio",
+    "homepage": "https://anishlp7.github.io/my-portfolio",
     "dependencies": {
         "gh-pages": "^1.2.0",
         "mdbreact": "^4.5.1",
