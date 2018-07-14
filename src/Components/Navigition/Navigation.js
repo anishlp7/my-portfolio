@@ -42,7 +42,10 @@ class Navigation extends React.Component {
                                         <NavLink to="#">Skills</NavLink>
                                     </NavItem>
                                     <NavItem>
-                                        <NavLink to="#">Profile</NavLink>
+                                        <NavLink to="#">Projects</NavLink>
+                                    </NavItem>
+                                     <NavItem>
+                                        <NavLink to="#">About me</NavLink>
                                     </NavItem>
                                 </NavbarNav>
                                 <NavbarNav right>
@@ -126,7 +129,7 @@ class Navigation extends React.Component {
                             <h3 className="font-weight-bold mb-3 p-0"><strong>Background Color Generator</strong></h3>
                             <p>This project is used to give an linear gradient background color which we can later use it on any website as an background color.</p>
                             <p>The Whole project is bulit by using Javascript</p>
-                            <p><a><strong>Duration:</strong></a> 1 Day</p>
+                            <p><a><strong>Duration:</strong></a> 3 Days</p>
                         </Col>
                         <Col lg="5">
                             <View className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
@@ -159,7 +162,8 @@ class Navigation extends React.Component {
                 <div className="contactme1">
                     <Row>
                         <Col lg="7">
-                            <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
+                            <p className="textpadding">"I am beginner in learning web-development and ethical Hacking.And still seeking knowledge by watching and practising the tutorials.I am not an experienced candidate.I am just starting my career though i have learned more fundamentals skills which were in my skills section and everything which were in my skills sections are self-learned.And i like to finalize one thing.There is no shortages of developers. However, there is a shortage of good, talented, egoless, developers with ambition to learn along with development of the company."</p>
+                            
                         </Col>
                         <Col lg="5">
                             <View className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>

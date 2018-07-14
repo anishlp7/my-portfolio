@@ -43,3 +43,8 @@ margin: 2rem;
 .padimage{
     padding-top: 5rem;
 }
+.textpadding{
+    padding-top: 15px;
+    font-size: 30px;
+     font-family: 'Dancing Script', cursive;
+}
