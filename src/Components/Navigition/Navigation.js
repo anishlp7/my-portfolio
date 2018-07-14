@@ -30,22 +30,22 @@ class Navigation extends React.Component {
                     <Router>
                         <Navbar color="transparent" dark expand="md" fixed="top" scrolling>
                             <NavbarBrand href="/">
-                                <strong>Anish Lawrence</strong>
+                                <strong>Anish L</strong>
                             </NavbarBrand>
                             { !this.state.isWideEnough && <NavbarToggler onClick = { this.onClick } />}
                             <Collapse isOpen = { this.state.collapse } navbar>
                                 <NavbarNav left>
                                     <NavItem active>
-                                        <NavLink to="#">Home</NavLink>
+                                         <a href="#Home" className="navcolor">Home</a>
+                                    </NavItem>
+                                    <NavItem >
+                                     <a href="#Skills" className="navcolor">Skills</a>          
                                     </NavItem>
                                     <NavItem>
-                                        <NavLink to="#" >Skills</NavLink>
+                                     <a href="#Projects" className="navcolor">Projects</a>
                                     </NavItem>
                                     <NavItem>
-                                        <NavLink to="#">Projects</NavLink>
-                                    </NavItem>
-                                    <NavItem>
-                                        <NavLink to="#">About me</NavLink>
+                                         <a href="#Aboutme" className="navcolor">About me</a>
                                     </NavItem>
                                 </NavbarNav>
                                 <NavbarNav right>
@@ -75,7 +75,7 @@ class Navigation extends React.Component {
                         </Navbar>
                     </Router>
 
-                    <div style={view}>
+                    <div style={view} id="Home">
 
                         <Mask  style={{flexDirection: 'column'}} className="flex-center  text-white text-center">
                             <h2 className="fontsize1">"Learn To Code"</h2>
@@ -85,7 +85,7 @@ class Navigation extends React.Component {
                         </Mask>
                     </div>
                 </header>
-                <h1 className="fontsize3" id="Skills">Skills</h1>
+                <h1 className="fontsize3" id="Skills" name="Skills">Skills</h1>
                 <div className="contactme1">
                     <Row>
                         <Col lg="6">
@@ -113,7 +113,8 @@ class Navigation extends React.Component {
                         </Col>
                     </Row>
                 </div>
-                <h1 className="fontsize3">Projects</h1>
+                <div id="Projects">
+                    <h1 className="fontsize3"> Projects</h1>
                 <div className="contactme1">
                     <Row>
                         <Col lg="5">
@@ -171,7 +172,9 @@ class Navigation extends React.Component {
                         </Col>
                     </Row>
                 </div>
-                <h1 className="fontsize3">About me</h1> 
+                </div>
+            
+                <h1 className="fontsize3" id="Aboutme">About me</h1> 
                 <div className="contactme1">
                     <Row>
                         <Col lg="7">

@@ -52,3 +52,9 @@ margin: 2rem;
 .bgcolor{
     color: white;
 }
+.navcolor{
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    font-weight: bolder;
+}
