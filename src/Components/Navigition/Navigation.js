@@ -91,12 +91,14 @@ class Navigation extends React.Component {
                         <Col lg="6">
                             <h6 className="font-weight-bold mb-3 p-0"><strong>HTML &amp; CSS</strong></h6>
                             <Progress value={50} color="success" animated></Progress><br/>
-                            <h6 className="font-weight-bold mb-3 p-0"><strong>React JS</strong></h6>
+                            <h6 className="font-weight-bold mb-3 p-0"><strong>React JS/Redux</strong></h6>
                             <Progress value={50} color="info" animated></Progress><br/>
                             <h6 className="font-weight-bold mb-3 p-0"><strong>Node JS</strong></h6>
                             <Progress value={50} color="warning" animated></Progress><br/>
                             <h6 className="font-weight-bold mb-3 p-0"><strong>PHP &amp; MySQL</strong></h6>
                             <Progress value={50} color="danger" animated></Progress><br/>
+                            <h6 className="font-weight-bold mb-3 p-0"><strong>Redis</strong></h6>
+                            <Progress value={30} color="danger" animated></Progress><br/>
 
 
 
@@ -109,7 +111,9 @@ class Navigation extends React.Component {
                             <h6 className="font-weight-bold mb-3 p-0"><strong>PostgreSQL</strong></h6>
                             <Progress value={50} color="info" animated></Progress><br/>
                             <h6 className="font-weight-bold mb-3 p-0"><strong>Ethical Hacking</strong></h6>
-                            <Progress value={50} color="success" animated></Progress>
+                            <Progress value={50} color="success" animated></Progress><br/>
+                            <h6 className="font-weight-bold mb-3 p-0"><strong>Jest(Testing)</strong></h6>
+                            <Progress value={30} color="danger" animated></Progress><br/>
                         </Col>
                     </Row>
                 </div>
@@ -126,7 +130,6 @@ class Navigation extends React.Component {
                         <Col lg="7">
                             <a className="green-text"><h6 className="font-weight-bold mb-3"><Fa icon="fa fa-archive" className="pr-2"></Fa>1</h6></a>
                             <h3 className="font-weight-bold mb-3 p-0"><strong>Smart Brain- Face Recognition</strong></h3>
-                            <p>The following project is originally designed by Andrei Neagoie.Later, I just recreated by seeing his tutorials which he was uploaded on Udemy.</p>
                             <p>The project is used to detect the faces of the persons when we give an url of an image.And based on how many entries he has given by that we give rank for that person.</p>
                             <p>The whole project is bulit by React</p>
                             <p><a><strong>Duration:</strong></a> 3 Months</p>
@@ -140,10 +143,10 @@ class Navigation extends React.Component {
                                     <Fa icon="fa fa-archive" className="pr-2"></Fa>2
                                 </h6>
                             </a>
-                            <h3 className="font-weight-bold mb-3 p-0"><strong>Background Color Generator</strong></h3>
-                            <p>This project is used to give an linear gradient background color which we can later use it on any website as an background color.</p>
-                            <p>The Whole project is bulit by using Javascript</p>
-                            <p><a><strong>Duration:</strong></a> 3 Days</p>
+                            <h3 className="font-weight-bold mb-3 p-0"><strong>Robofriends</strong></h3>
+                            <p>This project is an simple project which is used to fetch data from an JSON file.</p>
+                            <p>The Whole project is built by using React & Redux</p>
+                            <p><a><strong>Duration:</strong></a> 15 Days</p>
                         </Col>
                         <Col lg="5">
                             <View className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
@@ -171,6 +174,26 @@ class Navigation extends React.Component {
                             <p><a><strong>Duration:</strong></a> 6 Months</p>
                         </Col>
                     </Row>
+                    <hr className="my-5"/>
+                    <Row>
+                        <Col lg="7">
+                            <a className="pink-text">
+                                <h6 className="font-weight-bold mb-3">
+                                    <Fa icon="fa fa-archive" className="pr-2"></Fa>4
+                                </h6>
+                            </a>
+                            <h3 className="font-weight-bold mb-3 p-0"><strong>Background Color Generator</strong></h3>
+                            <p>This project is used to give an linear gradient background color which we can later use it on any website as an background color.</p>
+                            <p>The Whole project is built by using Javascript</p>
+                            <p><a><strong>Duration:</strong></a> 3 Days</p>
+                        </Col>
+                        <Col lg="5">
+                            <View className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
+                                <img className="img-fluid" src={bgcolor} alt="Sample "/>
+                                <a><Mask overlay="white-slight"/></a>
+                            </View>
+                        </Col>
+                    </Row>
                 </div>
                 </div>
             
@@ -192,50 +215,7 @@ class Navigation extends React.Component {
                 <Container>
                     <section className="contact-section my-5">
                         <Card>
-                            <Row>
-                                <Col lg="8">
-                                    <CardBody className="form">
-                                        <h3 className="mt-4">
-                                            <Fa icon="envelope" className="pr-2"/>Contact me:
-                                        </h3>
-                                        <Row>
-                                            <Col md="6">
-                                                <div className="md-form mb-0">
-                                                    <Input type="text" id="form-contact-name" label="Your name"/>
-                                                </div>
-                                            </Col>
-                                            <Col md="6">
-                                                <div className="md-form mb-0">
-                                                    <Input type="text" id="form-contact-email" label="Your email"/>
-                                                </div>
-                                            </Col>
-                                        </Row>
-                                        <Row>
-                                            <Col md="6">
-                                                <div className="md-form mb-0">
-                                                    <Input type="text" id="form-contact-phone" label="Your phone"/>
-                                                </div>
-                                            </Col>
-                                            <Col md="6">
-                                                <div className="md-form mb-0">
-                                                    <Input type="text" id="form-contact-company" label="Your company"/>
-                                                </div>
-                                            </Col>
-                                        </Row>
-                                        <Row>
-                                            <Col md="12">
-                                                <div className="md-form mb-0">
-                                                    <Input type="textarea" id="form-contact-message" label="Your message"/>
-                                                    <Button tag="a" floating color="blue" size="lg">
-                                                        <Fa icon="send-o"/>
-                                                    </Button>
-                                                </div>
-                                            </Col>
-                                        </Row>
-                                    </CardBody>
-                                </Col>
-                                <Col lg="4" >
-                                    <CardBody className="contact text-center h-100 white-text contactme" >
+                                 <CardBody className="contact text-center h-100 white-text contactme" >
                                         <h3 className="my-4 pb-2">Contact information</h3>
                                         <ul className="text-lg-left list-unstyled ml-4">
                                             <li>
@@ -267,8 +247,6 @@ class Navigation extends React.Component {
                                             </li>
                                         </ul>
                                     </CardBody>
-                                </Col>
-                            </Row>
                         </Card>
                     </section>
                 </Container>
