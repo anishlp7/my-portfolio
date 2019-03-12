@@ -1,8 +1,11 @@
 import React from 'react';
-import { Navbar, NavbarBrand, NavbarNav, NavbarToggler, Collapse, NavItem, NavLink, Container, Mask,Row, Col, Card, CardBody, Fa, Button, Input , View,Progress , Footer} from 'mdbreact';
+import { Navbar, NavbarBrand, NavbarNav, NavbarToggler,
+ Collapse, NavItem, NavLink, Container, Mask,Row, Col, Card, CardBody, Fa,
+  View,Progress , Footer} from 'mdbreact';
 import { BrowserRouter as Router } from 'react-router-dom';
 import './Navigation.css';
 import anish from './anish.jpg';
+import robofriends from './robofriends.png'
 import smartbrain from './smartbrain.png';
 import pas from './pas.png';
 import bgcolor from './bgcolor.png';
@@ -52,21 +55,21 @@ class Navigation extends React.Component {
                                     <navItem>
                                         <NavLink to="#">  <li className="list-inline-item">
                                             <a className="p-2 fa-lg w-ic bgcolor" href='https://www.facebook.com/anish.lawrence.31'>
-                                                <Fa icon="facebook"/>
+                                                <i class="fab fa-facebook-square"></i>
                                             </a>
                                             </li></NavLink>
                                     </navItem>
                                     <navItem>
                                         <NavLink to="#"><li className="list-inline-item">
                                             <a className="p-2 fa-lg w-ic bgcolor" href='https://www.linkedin.com/in/anish-lawrence-434ba4139/'>
-                                                <Fa icon="linkedin"/>
+                                               <i class="fab fa-linkedin"></i>
                                             </a>
                                             </li></NavLink>
                                     </navItem>
                                     <navItem>
                                         <NavLink to="#"><li className="list-inline-item">
                                             <a className="p-2 fa-lg w-ic bgcolor" href='https://github.com/anishlp7'>
-                                                <Fa icon="github"/>
+                                               <i class="fab fa-github"></i>
                                             </a>
                                             </li></NavLink>
                                     </navItem>
@@ -131,7 +134,7 @@ class Navigation extends React.Component {
                             <a className="green-text"><h6 className="font-weight-bold mb-3"><Fa icon="fa fa-archive" className="pr-2"></Fa>1</h6></a>
                             <h3 className="font-weight-bold mb-3 p-0"><strong>Smart Brain- Face Recognition</strong></h3>
                             <p>The project is used to detect the faces of the persons when we give an url of an image.And based on how many entries he has given by that we give rank for that person.</p>
-                            <p>The whole project is bulit by React</p>
+                            <p>The whole project is bulit by React.</p>
                             <p><a><strong>Duration:</strong></a> 3 Months</p>
                         </Col>
                     </Row>
@@ -145,12 +148,12 @@ class Navigation extends React.Component {
                             </a>
                             <h3 className="font-weight-bold mb-3 p-0"><strong>Robofriends</strong></h3>
                             <p>This project is an simple project which is used to fetch data from an JSON file.</p>
-                            <p>The Whole project is built by using React & Redux</p>
+                            <p>The Whole project is built by using React & Redux.</p>
                             <p><a><strong>Duration:</strong></a> 15 Days</p>
                         </Col>
                         <Col lg="5">
                             <View className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
-                                <img className="img-fluid" src={bgcolor} alt="Sample "/>
+                                <img className="img-fluid" src={robofriends} alt="Sample "/>
                                 <a><Mask overlay="white-slight"/></a>
                             </View>
                         </Col>
@@ -184,7 +187,7 @@ class Navigation extends React.Component {
                             </a>
                             <h3 className="font-weight-bold mb-3 p-0"><strong>Background Color Generator</strong></h3>
                             <p>This project is used to give an linear gradient background color which we can later use it on any website as an background color.</p>
-                            <p>The Whole project is built by using Javascript</p>
+                            <p>The Whole project is built by using Javascript.</p>
                             <p><a><strong>Duration:</strong></a> 3 Days</p>
                         </Col>
                         <Col lg="5">
@@ -219,10 +222,10 @@ class Navigation extends React.Component {
                                         <h3 className="my-4 pb-2">Contact information</h3>
                                         <ul className="text-lg-left list-unstyled ml-4">
                                             <li>
-                                                <p><Fa icon="map-marker" className="pr-2"/>Tamil Nadu, 629003 India</p>
+                                                <p><Fa icon="map-marker" className="pr-2"/>Tamil Nadu, 629003, India</p>
                                             </li>
                                             <li>
-                                                <p><Fa icon="phone" className="pr-2"/>+91 9043 57 1929</p>
+                                                <p><Fa icon="phone" className="pr-2"/>+91 9043 57 1929 / 7010 44 9412</p>
                                             </li>
                                             <li>
                                                 <p><Fa icon="envelope" className="pr-2"/>anishlp7@gmail.com</p>
@@ -232,17 +235,17 @@ class Navigation extends React.Component {
                                         <ul className="list-inline text-center list-unstyled">
                                             <li className="list-inline-item">
                                                 <a className="p-2 fa-lg w-ic bgcolor" href='https://www.facebook.com/anish.lawrence.31'>
-                                                    <Fa icon="facebook"/>
+                                                    <i class="fab fa-facebook-square"></i>
                                                 </a>
                                             </li>
                                             <li className="list-inline-item">
                                                 <a className="p-2 fa-lg w-ic bgcolor" href='https://www.linkedin.com/in/anish-lawrence-434ba4139/'>
-                                                    <Fa icon="linkedin"/>
+                                                   <i class="fab fa-linkedin"></i>
                                                 </a>
                                             </li>
                                             <li className="list-inline-item">
                                                 <a className="p-2 fa-lg w-ic bgcolor" href='https://github.com/anishlp7'>
-                                                    <Fa icon="github"/>
+                                                    <i class="fab fa-github"></i>
                                                 </a>
                                             </li>
                                         </ul>
