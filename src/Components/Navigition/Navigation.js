@@ -1,6 +1,6 @@
 import React from 'react';
 import { Navbar, NavbarBrand, NavbarNav, NavbarToggler,
- Collapse, NavItem, NavLink, Container, Mask,Row, Col, Card, CardBody, Fa,
+ Collapse, NavItem, Container, Mask,Row, Col, Card, CardBody, Fa,
   View,Progress , Footer} from 'mdbreact';
 import { BrowserRouter as Router } from 'react-router-dom';
 import './Navigation.css';
@@ -52,27 +52,24 @@ class Navigation extends React.Component {
                                     </NavItem>
                                 </NavbarNav>
                                 <NavbarNav right>
-                                    <navItem>
-                                        <NavLink to="#">  <li className="list-inline-item">
-                                            <a className="p-2 fa-lg w-ic bgcolor" href='https://www.facebook.com/anish.lawrence.31'>
-                                                <i class="fab fa-facebook-square"></i>
+                                  
+
+                                            <a className="p-2 fa-lg w-ic bgcolor list-inline-item" href='https://www.facebook.com/anish.lawrence.31'>
+                                                <i className="fab fa-facebook-square"></i>
                                             </a>
-                                            </li></NavLink>
-                                    </navItem>
-                                    <navItem>
-                                        <NavLink to="#"><li className="list-inline-item">
-                                            <a className="p-2 fa-lg w-ic bgcolor" href='https://www.linkedin.com/in/anish-lawrence-434ba4139/'>
-                                               <i class="fab fa-linkedin"></i>
+                                           
+                            
+                                        
+                                            <a className="p-2 fa-lg w-ic bgcolor list-inline-item" href='https://www.linkedin.com/in/anish-l-434ba4139/'>
+                                               <i className="fab fa-linkedin"></i>
                                             </a>
-                                            </li></NavLink>
-                                    </navItem>
-                                    <navItem>
-                                        <NavLink to="#"><li className="list-inline-item">
-                                            <a className="p-2 fa-lg w-ic bgcolor" href='https://github.com/anishlp7'>
-                                               <i class="fab fa-github"></i>
+                                          
+                                 
+                                            <a className="p-2 fa-lg w-ic bgcolor list-inline-item" href='https://github.com/anishlp7'>
+                                               <i className="fab fa-github"></i>
                                             </a>
-                                            </li></NavLink>
-                                    </navItem>
+                                    
+                                    
                                 </NavbarNav>
                             </Collapse>
                         </Navbar>
@@ -127,21 +124,21 @@ class Navigation extends React.Component {
                         <Col lg="5">
                             <View className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
                                 <img className="img-fluid" src={smartbrain} alt="Sample"/>
-                                <a><Mask overlay="white-slight"/></a>
+                                <Mask overlay="white-slight"/>
                             </View>
                         </Col>
                         <Col lg="7">
-                            <a className="green-text"><h6 className="font-weight-bold mb-3"><Fa icon="fa fa-archive" className="pr-2"></Fa>1</h6></a>
+                            <a className="green-text" href='#smartbrain'><h6 className="font-weight-bold mb-3"><Fa icon="fa fa-archive" className="pr-2"></Fa>1</h6></a>
                             <h3 className="font-weight-bold mb-3 p-0"><strong>Smart Brain- Face Recognition</strong></h3>
                             <p>The project is used to detect the faces of the persons when we give an url of an image.And based on how many entries he has given by that we give rank for that person.</p>
                             <p>The whole project is bulit by React.</p>
-                            <p><a><strong>Duration:</strong></a> 3 Months</p>
+                            <p><strong>Duration:</strong> 3 Months</p>
                         </Col>
                     </Row>
                     <hr className="my-5"/>
                     <Row>
                         <Col lg="7">
-                            <a className="pink-text">
+                            <a className="pink-text" href='#robofriends'>
                                 <h6 className="font-weight-bold mb-3">
                                     <Fa icon="fa fa-archive" className="pr-2"></Fa>2
                                 </h6>
@@ -149,12 +146,12 @@ class Navigation extends React.Component {
                             <h3 className="font-weight-bold mb-3 p-0"><strong>Robofriends</strong></h3>
                             <p>This project is an simple project which is used to fetch data from an JSON file.</p>
                             <p>The Whole project is built by using React & Redux.</p>
-                            <p><a><strong>Duration:</strong></a> 15 Days</p>
+                            <p><strong>Duration:</strong> 15 Days</p>
                         </Col>
                         <Col lg="5">
                             <View className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
                                 <img className="img-fluid" src={robofriends} alt="Sample "/>
-                                <a><Mask overlay="white-slight"/></a>
+                                <Mask overlay="white-slight"/>
                             </View>
                         </Col>
                     </Row>
@@ -163,24 +160,24 @@ class Navigation extends React.Component {
                         <Col lg="5">
                             <View className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
                                 <img className="img-fluid" src={pas} alt="Sample"/>
-                                <a><Mask overlay="white-slight"/></a>
+                                <a href='#image'><Mask overlay="white-slight"/></a>
                             </View>
                         </Col>
                         <Col lg="7">
-                            <a className="indigo-text"><h6 className="font-weight-bold mb-3"><Fa icon="fa fa-archive" className="pr-2"></Fa>3</h6></a>
+                            <a className="indigo-text" href='#placement'><h6 className="font-weight-bold mb-3"><Fa icon="fa fa-archive" className="pr-2"></Fa>3</h6></a>
                             <h3 className="font-weight-bold mb-3 p-0"><strong>Placement Automation System</strong></h3>
                             <p>The aim of the project is to build a Placement Automation System that will facilitate the interaction between college students and the placement cell.</p>
                             <p> The system will maintain student information such as grades, courses taken etc.. </p>
                             <p>All this student information will be uploaded by the student and will be used by the placement cell.
                             </p>
                             <p>My Final Year College Project</p>
-                            <p><a><strong>Duration:</strong></a> 6 Months</p>
+                            <p><strong>Duration:</strong> 6 Months</p>
                         </Col>
                     </Row>
                     <hr className="my-5"/>
                     <Row>
                         <Col lg="7">
-                            <a className="pink-text">
+                            <a className="pink-text" href='#backgroundcolor'>
                                 <h6 className="font-weight-bold mb-3">
                                     <Fa icon="fa fa-archive" className="pr-2"></Fa>4
                                 </h6>
@@ -188,12 +185,12 @@ class Navigation extends React.Component {
                             <h3 className="font-weight-bold mb-3 p-0"><strong>Background Color Generator</strong></h3>
                             <p>This project is used to give an linear gradient background color which we can later use it on any website as an background color.</p>
                             <p>The Whole project is built by using Javascript.</p>
-                            <p><a><strong>Duration:</strong></a> 3 Days</p>
+                            <p><strong>Duration:</strong> 3 Days</p>
                         </Col>
                         <Col lg="5">
                             <View className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
                                 <img className="img-fluid" src={bgcolor} alt="Sample "/>
-                                <a><Mask overlay="white-slight"/></a>
+                                <Mask overlay="white-slight"/>
                             </View>
                         </Col>
                     </Row>
@@ -210,7 +207,7 @@ class Navigation extends React.Component {
                         <Col lg="5">
                             <View className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
                                 <img className="img-fluid" src={anish} alt="Sample "/>
-                                <a><Mask overlay="white-slight"/></a>
+                                <Mask overlay="white-slight"/>
                             </View>
                         </Col>
                     </Row>
@@ -235,17 +232,17 @@ class Navigation extends React.Component {
                                         <ul className="list-inline text-center list-unstyled">
                                             <li className="list-inline-item">
                                                 <a className="p-2 fa-lg w-ic bgcolor" href='https://www.facebook.com/anish.lawrence.31'>
-                                                    <i class="fab fa-facebook-square"></i>
+                                                    <i className="fab fa-facebook-square"></i>
                                                 </a>
                                             </li>
                                             <li className="list-inline-item">
-                                                <a className="p-2 fa-lg w-ic bgcolor" href='https://www.linkedin.com/in/anish-lawrence-434ba4139/'>
-                                                   <i class="fab fa-linkedin"></i>
+                                                <a className="p-2 fa-lg w-ic bgcolor" href='https://www.linkedin.com/in/anish-l-434ba4139/'>
+                                                   <i className="fab fa-linkedin"></i>
                                                 </a>
                                             </li>
                                             <li className="list-inline-item">
                                                 <a className="p-2 fa-lg w-ic bgcolor" href='https://github.com/anishlp7'>
-                                                    <i class="fab fa-github"></i>
+                                                    <i className="fab fa-github"></i>
                                                 </a>
                                             </li>
                                         </ul>
@@ -259,7 +256,7 @@ class Navigation extends React.Component {
                 <Footer color="black" className="font-small pt-0">
                     <div className="footer-copyright text-center py-3">
                         <Container fluid  color='white'>
-                            &copy; {(new Date().getFullYear())} Copyright: <a > anishlp7@gmail.com</a>
+                            &copy; {(new Date().getFullYear())} Copyright: <a href='#Copyright'> anishlp7@gmail.com</a>
                         </Container>
                     </div>
                 </Footer>
