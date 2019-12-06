@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/my-portfolio/static/media/fa-solid-900.82905d8d.svg"
   },
   {
-    "revision": "1ffdd3a3cac0c4f5aba9",
+    "revision": "8a6b38e56c9e79530d71",
     "url": "/my-portfolio/static/css/main.d45ce103.chunk.css"
   },
   {
@@ -96,8 +96,8 @@ self.__precacheManifest = [
     "url": "/my-portfolio/static/media/fa-brands-400.80533988.svg"
   },
   {
-    "revision": "1ffdd3a3cac0c4f5aba9",
-    "url": "/my-portfolio/static/js/main.871d2bac.chunk.js"
+    "revision": "8a6b38e56c9e79530d71",
+    "url": "/my-portfolio/static/js/main.a1d080ab.chunk.js"
   },
   {
     "revision": "11911410dca2de148f30954eb2fd5eab",
@@ -168,10 +168,6 @@ self.__precacheManifest = [
     "url": "/my-portfolio/static/media/Roboto-Bold.dc81817d.woff"
   },
   {
-    "revision": "46e48ce0628835f68a7369d0254e4283",
-    "url": "/my-portfolio/static/media/Roboto-Light.46e48ce0.ttf"
-  },
-  {
     "revision": "94998475f6aea65f558494802416c1cf",
     "url": "/my-portfolio/static/media/Roboto-Thin.94998475.ttf"
   },
@@ -184,11 +180,15 @@ self.__precacheManifest = [
     "url": "/my-portfolio/static/media/Roboto-Medium.894a2ede.ttf"
   },
   {
+    "revision": "46e48ce0628835f68a7369d0254e4283",
+    "url": "/my-portfolio/static/media/Roboto-Light.46e48ce0.ttf"
+  },
+  {
     "revision": "f377c662080cccf58c1d",
     "url": "/my-portfolio/static/css/2.5331a3bc.chunk.css"
   },
   {
-    "revision": "512b1a888a9f7cdaf9d6426a1058a85b",
+    "revision": "f70f5ee1a23d02503f5abc7e72b33b0a",
     "url": "/my-portfolio/index.html"
   }
 ];
